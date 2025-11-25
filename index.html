@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,65 +11,67 @@
     <div class="app">
         <main>
             <div class="container">
-                <section class="hero-container">
+                <section class="hero-container" aria-labelledby="welcome-heading">
                     <div class="hero-text">
-                        <h1>Chào mừng đến với Portfolio của tôi</h1>
+                        <h1 id="welcome-heading">Chào mừng đến với Portfolio của tôi</h1>
                         <p>Tôi là Lê Chí Hiển – một lập trình viên đam mê công nghệ, hiện đang sinh sống và làm việc tại Hà Nội.
-                            Trang này là nơi tôi chia sẻ hành trình khám phá và xây dựng các ứng dụng – nơi mà sự sáng tạo gặp gỡ với tính năng thực tiễn, 
-                            mang đến những trải nghiệm mượt mà và hiệu quả cho người dùng.</p><br>
+                            Trang này là nơi tôi chia sẻ hành trình khám phá và xây dựng các ứng dụng – nơi mà sự sáng tạo gặp gỡ với tính năng thực tiễn,
+                            mang đến những trải nghiệm mượt mà và hiệu quả cho người dùng.</p>
                     </div>
                     <div class="hero-img">
-                        <img src="assert/unnamed.jpg" alt="hero-img">
+                        <img src="assert/unnamed.jpg" alt="Ảnh đại diện của Lê Chí Hiển" loading="lazy">
                     </div>
                 </section>
-                <section class="objective-container">
-                    <h1>MỤC TIÊU NGHỀ NGHIỆP</h1>
+                <section class="objective-container" aria-labelledby="objective-heading">
+                    <h1 id="objective-heading">MỤC TIÊU NGHỀ NGHIỆP</h1>
                     <p>Là một sinh viên mới tốt nghiệp, tôi đã tích lũy được kinh nghiệm thực tế thông qua các kỳ thực tập và tham gia dự án tại hai công
                         ty khác nhau, chủ yếu trong lĩnh vực phát triển giao diện người dùng (Front-end). Hiện tại, tôi đang chủ động nâng cao kiến thức
                         và kỹ năng về Back-end, với mục tiêu trở thành một lập trình viên Fullstack. Tôi mong muốn được làm việc và học hỏi trong môi
                         trường chuyên nghiệp, đồng thời đóng góp tích cực vào sự phát triển bền vững của công ty.</p>
                 </section>
-                <section class="education-container">
-                    <div class="education-summary">
-                        <div class="education-text">
-                            <h1>Học vấn</h1>
-                            <p>Đại học Điện Lực</p>
-                            <p>Khoa công nghệ thông tin, chuyên ngành công nghệ phần mềm</p><br>
-                        </div>
+                <section class="education-container" aria-labelledby="education-heading">
+                    <div class="education-text">
+                        <h1 id="education-heading">Học vấn</h1>
                     </div>
-                    <div class="education-detail">
-                        <div class="education-detail-text">
-                            <li>Tốt nghiệp loại Giỏi</li><br>
-                            <li>Đạt học bổng 2024</li><br>
-                            <li>GPA: 3.31/4.0</li><br>
+                    <div class="education-content">
+                        <div class="education-summary">
+                            <h2>Đại học Điện Lực</h2>
+                            <p>Khoa công nghệ thông tin, chuyên ngành công nghệ phần mềm</p>
+                        </div>
+                        <div class="education-detail">
+                            <ul>
+                                <li>Tốt nghiệp loại Giỏi</li>
+                                <li>Đạt học bổng 2024</li>
+                                <li>GPA: 3.31/4.0</li>
+                            </ul>
                         </div>
                     </div>
                 </section>
-                <section class="skill-container">
-                    <h1>KĨ NĂNG</h1>
+                <section class="skill-container" aria-labelledby="skills-heading">
+                    <h1 id="skills-heading">KĨ NĂNG</h1>
                 </section>
-                <section class="list-skill-container">
+                <section class="list-skill-container" aria-labelledby="skills-heading">
                     <div class="list-skill-item">
                         <div class="skill-detail">
-                            <h1>Front-end</h1>
+                            <h2>Front-end</h2>
                             <p>Nắm vững những kiến thức cơ bản về HTML, CSS và JavaScript, đã áp dụng vào các dự án nhỏ.</p>
                         </div>
                         <div class="skill-detail">
-                            <h1>Framework</h1>
+                            <h2>Framework</h2>
                             <p>Nắm vững những kiến thức cơ bản về Bootstrap, đã áp dụng vào các dự án nhỏ.</p>
                         </div>
                         <div class="skill-detail">
-                            <h1>Cơ sở dữ liệu</h1>
+                            <h2>Cơ sở dữ liệu</h2>
                             <p>Nắm vững những kiến thức cơ bản về SQL Server và MySQL, đã áp dụng vào các dự án nhỏ.</p>
                         </div>
                     </div>
                     <div class="list-skill-item">
                         <div class="skill-detail">
-                            <h1>Quản lý phiên bản</h1>
+                            <h2>Quản lý phiên bản</h2>
                             <p>Nắm vững những kiến thức cơ bản về Git, đã áp dụng vào các dự án nhỏ.</p>
                         </div>
                         <div class="skill-detail">
-                            <h1>Kĩ năng mềm</h1>
+                            <h2>Kĩ năng mềm</h2>
                             <ul>
                                 <li>Có khả năng làm việc hiệu quả cả độc lập và trong môi trường làm việc nhóm</li>
                                 <li>Có khả năng làm việc tốt trong môi trường áp lực cao.</li>
@@ -78,54 +80,65 @@
                         </div>
                     </div>
                 </section>
-                <section class="experience-container">
-                    <h1>KINH NGHIỆM LÀM VIỆC</h1>
+                <section class="experience-container" aria-labelledby="experience-heading">
+                    <h1 id="experience-heading">KINH NGHIỆM LÀM VIỆC</h1>
                 </section>
-                <section class="list-experience-container">
+                <section class="list-experience-container" aria-labelledby="experience-heading">
                     <div class="list-experience-item">
                         <div class="experience-detail">
                             <div class="company">
                                 <div class="company-img">
-                                    <img src="assert/logo-napas-16899065047812042806293-17506501221901132348312.png" alt="blog-1">
+                                    <img src="assert/logo-napas-16899065047812042806293-17506501221901132348312.png" alt="Logo Công ty NAPAS" loading="lazy">
                                 </div>
                                 <div class="company-name">
-                                    <h1>Công ty Cổ phần Thanh toán Quốc gia Việt Nam - NAPAS</h1>
+                                    <h2>Công ty Cổ phần Thanh toán Quốc gia Việt Nam - NAPAS</h2>
                                 </div>
                             </div>
                             <div class="experience-detail-info">
                                 <ul>
-                                    <li><b>Thời gian làm việc: </b>15/01/2024 - 15/01/2025</li>
-                                    <li><b>Vị trí: </b>Fullstack Developer</li>
-                                    <li><b>Dự án tham gia: </b>NAPAS-MIS</li>
+                                    <li><strong>Thời gian làm việc: </strong>15/01/2024 - 15/01/2025</li>
+                                    <li><strong>Vị trí: </strong>Fullstack Developer</li>
+                                    <li><strong>Dự án tham gia: </strong>NAPAS-MIS</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="experience-detail">
                             <div class="company">
                                 <div class="company-img">
-                                    <img src="assert/NGV-Corporation-logo1.png" alt="blog-1">
+                                    <img src="assert/NGV-Corporation-logo1.png" alt="Logo Công ty NGV" loading="lazy">
                                 </div>
                                 <div class="company-name">
-                                    <h1>Công ty Cổ phần Thanh toán Quốc gia Việt Nam - NAPAS</h1>
+                                    <h2>Công ty Cổ phần NGV</h2>
                                 </div>
                             </div>
                             <div class="experience-detail-info">
                                 <ul>
-                                    <li><b>Thời gian làm việc: </b>21/02/2025 - 10/07/2025</li>
-                                    <li><b>Vị trí: </b>Fullstack Developer</li>
-                                    <li><b>Dự án tham gia: </b>Giải pháp phần mềm eFund</li>
+                                    <li><strong>Thời gian làm việc: </strong>21/02/2025 - 10/07/2025</li>
+                                    <li><strong>Vị trí: </strong>Fullstack Developer</li>
+                                    <li><strong>Dự án tham gia: </strong>Giải pháp phần mềm eFund</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="contact-container">
+                <section class="contact-container" aria-labelledby="contact-heading">
                     <div class="contact-text">
-                        <h1>LIÊN HỆ VỚI TÔI</h1>
+                        <h1 id="contact-heading">LIÊN HỆ VỚI TÔI</h1>
                         <ul>
-                            <li>Số điện thoại: 0382346669</li>
-                            <li>Email: hienlc05102002@gmail.com</li>
+                            <li><strong>Số điện thoại: </strong>0382346669</li>
+                            <li><strong>Email: </strong><a href="mailto:hienlc05102002@gmail.com" aria-label="Gửi email cho Lê Chí Hiển">hienlc05102002@gmail.com</a></li>
                         </ul>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/lechihien0512?locale=vi_VN" target="_blank" rel="noopener noreferrer" aria-label="Truy cập Facebook của Lê Chí Hiển">
+                                <i class="fab fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://github.com/HienLC" target="_blank" rel="noopener noreferrer" aria-label="Truy cập GitHub của Lê Chí Hiển">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@foreverlovemotorsport" target="_blank" rel="noopener noreferrer" aria-label="Truy cập TikTok của Lê Chí Hiển">
+                                <i class="fab fa-tiktok" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
                 </section>
             </div>
